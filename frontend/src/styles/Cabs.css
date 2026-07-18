@@ -1,0 +1,102 @@
+.cabs-container {
+  padding: 30px;
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+.cabs-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.cab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.cab-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.cab-card:hover {
+  transform: translateY(-5px);
+}
+
+.cab-card h2 {
+  color: #3498db;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.not-available {
+  color: red;
+  font-weight: bold;
+}
+
+.book-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-btn:hover {
+  background: #2980b9;
+}
+.cab-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: #27ae60;
+  font-size: 22px;
+  font-weight: bold;
+}
+.cab-card {
+  overflow: hidden;
+}
+
+.cab-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.book-btn {
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  transform: scale(1.03);
+}
+
+.available {
+  background: #d4edda;
+  color: #155724;
+  padding: 4px 10px;
+  border-radius: 15px;
+}
+
+.not-available {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 4px 10px;
+  border-radius: 15px;
+}
